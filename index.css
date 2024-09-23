@@ -159,7 +159,7 @@ body{
     margin-top: .6rem;
 }
 
-.fylo-storage-range h3{
+.fylo-storage-range p{
     font-size: var(--font-size);
     color: var(--color-pale-blue);
 }
@@ -167,7 +167,7 @@ body{
 @media (max-width: 400px){
     body{
         background-image: url("images/bg-mobile.png");
-        background-position: center;
+        /* background-position: center; */
     }
 
     .fylo-data-storage-component{
@@ -210,7 +210,7 @@ body{
         display: none;
     }
 
-    .fylo-storage-range h3{
+    .fylo-storage-range p{
         font-size: .8rem;
     }
 }
