@@ -22,8 +22,8 @@ body{
     background-color: var(--color-very-dark-blue);
     background-image: url("images/bg-desktop.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -85%;
+    background-size: contain;
+    background-position-y: 100%;
 }
 
 .fylo-data-storage-component{
@@ -33,6 +33,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    margin-bottom: 4rem;
 }
 
 .fylo-data-storage{
@@ -69,11 +70,12 @@ body{
 
 .fylo-data-storage-progress{
     width: 600px;
+    height: 150px;
     padding: 2.5rem;
     border-radius: .5rem;
     background-color: var(--color-dark-blue);
     color: #fff;
-    margin-top: 2.2rem;
+    margin-top: 2.6rem;
     position: relative;
 }
 
@@ -130,7 +132,7 @@ body{
     height: 1.3rem;
     background-color: var(--color-very-dark-blue);
     border-radius: 50px;
-    padding: .23rem;
+    padding: .2rem;
 }
 
 .fylo-storage-progress{
@@ -143,13 +145,13 @@ body{
 
 .fylo-storage-progress::before{
     content: "";
-    width: 12px;
-    height: 12px;
+    width: 11px;
+    height: 11px;
     position: absolute;
     background-color: #fff;
     border-radius: 50%;
-    right: .1rem;
-    top: .05rem;
+    right: .13rem;
+    top: .1rem;
 }
 
 .fylo-storage-range{
@@ -162,6 +164,7 @@ body{
 .fylo-storage-range p{
     font-size: var(--font-size);
     color: var(--color-pale-blue);
+    font-weight: 700;
 }
 
 @media (max-width: 400px){
@@ -212,5 +215,6 @@ body{
 
     .fylo-storage-range p{
         font-size: .8rem;
+        font-weight: 600;
     }
 }
